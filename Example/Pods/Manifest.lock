@@ -1,0 +1,14 @@
+PODS:
+  - BLabel (0.1.0)
+
+DEPENDENCIES:
+  - BLabel (from `../`)
+
+EXTERNAL SOURCES:
+  BLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BLabel: c3e94ac90bd5cb06fcd278459cf9c50cfe4eb8aa
+
+COCOAPODS: 0.39.0

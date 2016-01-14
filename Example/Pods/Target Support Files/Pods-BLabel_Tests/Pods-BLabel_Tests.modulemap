@@ -1,0 +1,6 @@
+framework module Pods_BLabel_Tests {
+  umbrella header "Pods-BLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08FB840B26ADCD757D268EC05DAB6E62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		1A95D1A34FDB42217ABE91C00D7BBFF8 /* Pods-BLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 682D8ECA66AA1AD7008291A35D0A911C /* Pods-BLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC54CC75F31CE854A2EDA92EA05E6D3 /* BLabel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30291FBD50F2BC57597040A0CD9AA3AF /* BLabel.bundle */; };
+		887786846B1878AC88D622CD88E14F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		91F5764B720C0740E42DFE4C418DA5E3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C62A2CFF82C72CE1D73061AB52496EFB /* ReplaceMe.m */; };
+		92362B72935CF6BBC0C306468B95AD09 /* Pods-BLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ECF7458D0BD43318E4E62A1DAE3BF3 /* Pods-BLabel_Example-dummy.m */; };
+		AC3DBC3272D2C9B53A75919EFF82CB61 /* Pods-BLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9153B444D6774D9CE051F9ADEC505C6 /* Pods-BLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B319050A4FC71DEAE375361BD309E135 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B4FCA023A19095508D3E97C8ED27E909 /* Pods-BLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76386560A52D94BC0E5BC49A90A612A9 /* Pods-BLabel_Tests-dummy.m */; };
+		DAE2DD280809E08549EA75D73BD7FC8E /* BLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB1BC178E9860BCFF6BF8FA928C67E0 /* BLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F207F09B3606B47D5EF939E6C734677B /* BLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D560757F1D20A694A92E848F7D2A92 /* BLabel-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		602294907C663C9911DCF88D7881124E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B15E1074658788F9A2455237492C888E;
+			remoteInfo = "BLabel-BLabel";
+		};
+		C6D1078BCDEE9222E9DBF5FAA8D259B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D3142A9D67F0C01DC8F84BD867A25E;
+			remoteInfo = BLabel;
+		};
+		E6254C82E77025ADD8750F794FECEDCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D3142A9D67F0C01DC8F84BD867A25E;
+			remoteInfo = BLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		163DCB7835FE532D7A238040C5398DCC /* Pods-BLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLabel_Example-resources.sh"; sourceTree = "<group>"; };
+		17A3B816F7E32736F5E7AE124652F8C7 /* Pods_BLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F85B27A0675EBC80CEE556E5126241 /* BLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8F2CF341405310FCB04C567BA04796 /* Pods-BLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		24801AA7908455467B1063F739825A46 /* Pods-BLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BLabel_Example.modulemap"; sourceTree = "<group>"; };
+		29BAC15A3C03FC0166D0DED89B2F0A3F /* BLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLabel.xcconfig; sourceTree = "<group>"; };
+		2E25C9A3E9671BC799EFECAF0F89C45B /* Pods-BLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30291FBD50F2BC57597040A0CD9AA3AF /* BLabel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLabel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D560757F1D20A694A92E848F7D2A92 /* BLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLabel-dummy.m"; sourceTree = "<group>"; };
+		3E488F020E4835FC2E97590CF94FA70D /* Pods-BLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40F9F0D494A97B0E2F180467DFBD29D4 /* Pods-BLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		46AA6AE7804F80D313E728494F5DDC65 /* Pods-BLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4C0D093042B011E1401595619DB386FC /* Pods-BLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		56D416273A3E54BBEF66228193CDA4F2 /* Pods-BLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		682D8ECA66AA1AD7008291A35D0A911C /* Pods-BLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6CB1BC178E9860BCFF6BF8FA928C67E0 /* BLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLabel-umbrella.h"; sourceTree = "<group>"; };
+		729B0FFA393EADD969D7AAD5F5749F78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BE7F287F8218736CB476BD4E66A5DE /* Pods-BLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		76386560A52D94BC0E5BC49A90A612A9 /* Pods-BLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		798BB6343FD041FDB37EB35F67CE6D99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8936C185D744673EDB96CE567988C1EF /* Pods-BLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2ECF7458D0BD43318E4E62A1DAE3BF3 /* Pods-BLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		B977F8D14AA3CAC822DAF9BAAC33B693 /* Pods_BLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C62A2CFF82C72CE1D73061AB52496EFB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		CFB503E4AAFB69A77E639A73603B8C6A /* BLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLabel-prefix.pch"; sourceTree = "<group>"; };
+		D71C3B869D0681B5ECC7F3902773F531 /* Pods-BLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		DE0C62FC5174D1D70CD8AAD19F9CC7A0 /* Pods-BLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DFFCD1622BF9CE9D1C9DD51DDD7A8BB9 /* BLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BLabel.modulemap; sourceTree = "<group>"; };
+		E9153B444D6774D9CE051F9ADEC505C6 /* Pods-BLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		EF47FFA2505CC75E981C58B6166B1921 /* Pods-BLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FC9926594EA8A5B4075BDC9AF9EFF40B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D9DC87360786D96F3DEF9ECB789BC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9052A6F380ABF6BCDC26CE48183352B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B319050A4FC71DEAE375361BD309E135 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6103C9589920C656649A20799BD07B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FB840B26ADCD757D268EC05DAB6E62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17D1BB977948661BE67B7B3863FF9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887786846B1878AC88D622CD88E14F3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36CE62574BB94ABF14AD7F88B6EB8ADB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62145D2BF923B28D06CCA6FEA5BE2FF7 /* BLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4EE64E591E104E2E2AF804DCB9D1DCEC /* Pods-BLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				729B0FFA393EADD969D7AAD5F5749F78 /* Info.plist */,
+				4C0D093042B011E1401595619DB386FC /* Pods-BLabel_Tests.modulemap */,
+				8936C185D744673EDB96CE567988C1EF /* Pods-BLabel_Tests-acknowledgements.markdown */,
+				3E488F020E4835FC2E97590CF94FA70D /* Pods-BLabel_Tests-acknowledgements.plist */,
+				76386560A52D94BC0E5BC49A90A612A9 /* Pods-BLabel_Tests-dummy.m */,
+				46AA6AE7804F80D313E728494F5DDC65 /* Pods-BLabel_Tests-frameworks.sh */,
+				D71C3B869D0681B5ECC7F3902773F531 /* Pods-BLabel_Tests-resources.sh */,
+				682D8ECA66AA1AD7008291A35D0A911C /* Pods-BLabel_Tests-umbrella.h */,
+				1E8F2CF341405310FCB04C567BA04796 /* Pods-BLabel_Tests.debug.xcconfig */,
+				73BE7F287F8218736CB476BD4E66A5DE /* Pods-BLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-BLabel_Tests";
+			path = "Target Support Files/Pods-BLabel_Tests";
+			sourceTree = "<group>";
+		};
+		62145D2BF923B28D06CCA6FEA5BE2FF7 /* BLabel */ = {
+			isa = PBXGroup;
+			children = (
+				84AC7B4F5ACE56BDFC1AEEBA15C64A65 /* Pod */,
+				B5A0B499D78162370210029C31CD170F /* Support Files */,
+			);
+			name = BLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6E6740278D2395BB6EBFC4D640134ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30291FBD50F2BC57597040A0CD9AA3AF /* BLabel.bundle */,
+				18F85B27A0675EBC80CEE556E5126241 /* BLabel.framework */,
+				B977F8D14AA3CAC822DAF9BAAC33B693 /* Pods_BLabel_Example.framework */,
+				17A3B816F7E32736F5E7AE124652F8C7 /* Pods_BLabel_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76663BB024BFFC2519B1F74B082BEBBC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C62A2CFF82C72CE1D73061AB52496EFB /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				36CE62574BB94ABF14AD7F88B6EB8ADB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6E6740278D2395BB6EBFC4D640134ACE /* Products */,
+				D23DBD8700D3D3F1B67EC3B3D816D0A3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84AC7B4F5ACE56BDFC1AEEBA15C64A65 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				76663BB024BFFC2519B1F74B082BEBBC /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		B5A0B499D78162370210029C31CD170F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFFCD1622BF9CE9D1C9DD51DDD7A8BB9 /* BLabel.modulemap */,
+				29BAC15A3C03FC0166D0DED89B2F0A3F /* BLabel.xcconfig */,
+				35D560757F1D20A694A92E848F7D2A92 /* BLabel-dummy.m */,
+				CFB503E4AAFB69A77E639A73603B8C6A /* BLabel-prefix.pch */,
+				6CB1BC178E9860BCFF6BF8FA928C67E0 /* BLabel-umbrella.h */,
+				FC9926594EA8A5B4075BDC9AF9EFF40B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BLabel";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BF6FF6F14EEAE8A1B983B2B1417ADC7D /* Pods-BLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				798BB6343FD041FDB37EB35F67CE6D99 /* Info.plist */,
+				24801AA7908455467B1063F739825A46 /* Pods-BLabel_Example.modulemap */,
+				2E25C9A3E9671BC799EFECAF0F89C45B /* Pods-BLabel_Example-acknowledgements.markdown */,
+				56D416273A3E54BBEF66228193CDA4F2 /* Pods-BLabel_Example-acknowledgements.plist */,
+				B2ECF7458D0BD43318E4E62A1DAE3BF3 /* Pods-BLabel_Example-dummy.m */,
+				EF47FFA2505CC75E981C58B6166B1921 /* Pods-BLabel_Example-frameworks.sh */,
+				163DCB7835FE532D7A238040C5398DCC /* Pods-BLabel_Example-resources.sh */,
+				E9153B444D6774D9CE051F9ADEC505C6 /* Pods-BLabel_Example-umbrella.h */,
+				40F9F0D494A97B0E2F180467DFBD29D4 /* Pods-BLabel_Example.debug.xcconfig */,
+				DE0C62FC5174D1D70CD8AAD19F9CC7A0 /* Pods-BLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-BLabel_Example";
+			path = "Target Support Files/Pods-BLabel_Example";
+			sourceTree = "<group>";
+		};
+		D23DBD8700D3D3F1B67EC3B3D816D0A3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF6FF6F14EEAE8A1B983B2B1417ADC7D /* Pods-BLabel_Example */,
+				4EE64E591E104E2E2AF804DCB9D1DCEC /* Pods-BLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8A1E0BAF7A0C8694E50AA3ED956EF0C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A95D1A34FDB42217ABE91C00D7BBFF8 /* Pods-BLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18D86AB2B2D9D6CDBBD389A39030EAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3DBC3272D2C9B53A75919EFF82CB61 /* Pods-BLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5AEA1F6BB4E2DD697D416FE2B14DC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE2DD280809E08549EA75D73BD7FC8E /* BLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13D3142A9D67F0C01DC8F84BD867A25E /* BLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD454F8FCEC5831F3B1CD9637085860B /* Build configuration list for PBXNativeTarget "BLabel" */;
+			buildPhases = (
+				CA3D67E680570EFFD325B29B9596AB2E /* Sources */,
+				B6103C9589920C656649A20799BD07B6 /* Frameworks */,
+				267477C5C338C762D431C094327C6BF3 /* Resources */,
+				AC5AEA1F6BB4E2DD697D416FE2B14DC5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B1B2DB58943D887D3A389C761764494 /* PBXTargetDependency */,
+			);
+			name = BLabel;
+			productName = BLabel;
+			productReference = 18F85B27A0675EBC80CEE556E5126241 /* BLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F9B56E71D43B06A0D34378F516D4099 /* Pods-BLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4D45ACD41F27C425881EAA494EFDB0 /* Build configuration list for PBXNativeTarget "Pods-BLabel_Tests" */;
+			buildPhases = (
+				63511F7F624713C6F54FEF2F806763C0 /* Sources */,
+				9052A6F380ABF6BCDC26CE48183352B2 /* Frameworks */,
+				8A1E0BAF7A0C8694E50AA3ED956EF0C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D14A83E5D82C1BE51808497BA6A9C0F /* PBXTargetDependency */,
+			);
+			name = "Pods-BLabel_Tests";
+			productName = "Pods-BLabel_Tests";
+			productReference = 17A3B816F7E32736F5E7AE124652F8C7 /* Pods_BLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B15E1074658788F9A2455237492C888E /* BLabel-BLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8BC6A2D17D09E42029AB8F45F3B7DFA /* Build configuration list for PBXNativeTarget "BLabel-BLabel" */;
+			buildPhases = (
+				D284D09857AECCB8191E6C9D27C6054D /* Sources */,
+				5D9DC87360786D96F3DEF9ECB789BC2A /* Frameworks */,
+				FBCAD3383B1836442B4A6F9F81FF5CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLabel-BLabel";
+			productName = "BLabel-BLabel";
+			productReference = 30291FBD50F2BC57597040A0CD9AA3AF /* BLabel.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E52FA50EBD964024BCD712163B9D47BD /* Pods-BLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85A76982939B83F34A6D6223AF4F724 /* Build configuration list for PBXNativeTarget "Pods-BLabel_Example" */;
+			buildPhases = (
+				444474128098E8DC6A1FC80F434E2B19 /* Sources */,
+				D17D1BB977948661BE67B7B3863FF9CC /* Frameworks */,
+				A18D86AB2B2D9D6CDBBD389A39030EAE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C244640855F4A4D9B614A95BD8B99801 /* PBXTargetDependency */,
+			);
+			name = "Pods-BLabel_Example";
+			productName = "Pods-BLabel_Example";
+			productReference = B977F8D14AA3CAC822DAF9BAAC33B693 /* Pods_BLabel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6E6740278D2395BB6EBFC4D640134ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13D3142A9D67F0C01DC8F84BD867A25E /* BLabel */,
+				B15E1074658788F9A2455237492C888E /* BLabel-BLabel */,
+				E52FA50EBD964024BCD712163B9D47BD /* Pods-BLabel_Example */,
+				3F9B56E71D43B06A0D34378F516D4099 /* Pods-BLabel_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		267477C5C338C762D431C094327C6BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC54CC75F31CE854A2EDA92EA05E6D3 /* BLabel.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCAD3383B1836442B4A6F9F81FF5CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		444474128098E8DC6A1FC80F434E2B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92362B72935CF6BBC0C306468B95AD09 /* Pods-BLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63511F7F624713C6F54FEF2F806763C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FCA023A19095508D3E97C8ED27E909 /* Pods-BLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3D67E680570EFFD325B29B9596AB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F207F09B3606B47D5EF939E6C734677B /* BLabel-dummy.m in Sources */,
+				91F5764B720C0740E42DFE4C418DA5E3 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D284D09857AECCB8191E6C9D27C6054D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D14A83E5D82C1BE51808497BA6A9C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLabel;
+			target = 13D3142A9D67F0C01DC8F84BD867A25E /* BLabel */;
+			targetProxy = E6254C82E77025ADD8750F794FECEDCD /* PBXContainerItemProxy */;
+		};
+		4B1B2DB58943D887D3A389C761764494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BLabel-BLabel";
+			target = B15E1074658788F9A2455237492C888E /* BLabel-BLabel */;
+			targetProxy = 602294907C663C9911DCF88D7881124E /* PBXContainerItemProxy */;
+		};
+		C244640855F4A4D9B614A95BD8B99801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLabel;
+			target = 13D3142A9D67F0C01DC8F84BD867A25E /* BLabel */;
+			targetProxy = C6D1078BCDEE9222E9DBF5FAA8D259B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		29C583B36800F1F0DAEB35F956CF3332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BE7F287F8218736CB476BD4E66A5DE /* Pods-BLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLabel_Tests/Pods-BLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		475F98B369E69D3637582EDB83BE3243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BAC15A3C03FC0166D0DED89B2F0A3F /* BLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLabel/BLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLabel/BLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61D35E26B488331308C82379EC20A5F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0C62FC5174D1D70CD8AAD19F9CC7A0 /* Pods-BLabel_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLabel_Example/Pods-BLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61EE1088B8833B1C7A612466B3BF3459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BAC15A3C03FC0166D0DED89B2F0A3F /* BLabel.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6D1845F89E2AF043DC4C7E5012003FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BAC15A3C03FC0166D0DED89B2F0A3F /* BLabel.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7622C48AF429C185D3D9981F07EB4AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F9F0D494A97B0E2F180467DFBD29D4 /* Pods-BLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLabel_Example/Pods-BLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC9FE5D814D354AA1EE3D99CDCE4B356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BAC15A3C03FC0166D0DED89B2F0A3F /* BLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLabel/BLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLabel/BLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E165CEF66DE7B9F0701B52F2060EA00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8F2CF341405310FCB04C567BA04796 /* Pods-BLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLabel_Tests/Pods-BLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8BC6A2D17D09E42029AB8F45F3B7DFA /* Build configuration list for PBXNativeTarget "BLabel-BLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1845F89E2AF043DC4C7E5012003FAE /* Debug */,
+				61EE1088B8833B1C7A612466B3BF3459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD454F8FCEC5831F3B1CD9637085860B /* Build configuration list for PBXNativeTarget "BLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9FE5D814D354AA1EE3D99CDCE4B356 /* Debug */,
+				475F98B369E69D3637582EDB83BE3243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4D45ACD41F27C425881EAA494EFDB0 /* Build configuration list for PBXNativeTarget "Pods-BLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E165CEF66DE7B9F0701B52F2060EA00B /* Debug */,
+				29C583B36800F1F0DAEB35F956CF3332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85A76982939B83F34A6D6223AF4F724 /* Build configuration list for PBXNativeTarget "Pods-BLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7622C48AF429C185D3D9981F07EB4AE4 /* Debug */,
+				61D35E26B488331308C82379EC20A5F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

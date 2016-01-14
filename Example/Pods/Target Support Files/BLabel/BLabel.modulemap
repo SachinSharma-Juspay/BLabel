@@ -1,0 +1,6 @@
+framework module BLabel {
+  umbrella header "BLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
