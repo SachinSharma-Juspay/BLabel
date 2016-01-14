@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BLabel_Example', :exclusive => true do
+  pod "BLabel", :path => "../"
+end
+
+target 'BLabel_Tests', :exclusive => true do
+  pod "BLabel", :path => "../"
+
+  
+end
